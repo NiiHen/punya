@@ -20,7 +20,7 @@ j++;}
 if(a_to_vh==false)
 {var encryptedUrl=Base64.encode(a_to_vi);
 
-function reverseString(str) {return str.split("").reverse().join("");}var hardencryptedUrl=reverseString(encryptedUrl);
+var hardencryptedUrl=encodeURIComponent(encryptedUrl);
 
 var x=Math.floor((Math.random()*1)+ 1);
 if(x=="1"){xxx="/p/ads.html"}
