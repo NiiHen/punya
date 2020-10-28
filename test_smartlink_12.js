@@ -120,6 +120,12 @@ else if(harta == sak1)
 else if(harta == sak2)
 {
 
+	$(document).ready(function(){
+		$('a[href^="https://www.linkonclick.com').each(function(){ 
+			$(this).attr("href", "https://bit.ly/36vtAYc"); 
+		});
+	
+	});
 	document.querySelector(".macemanapula").style.display="unset";
 	document.querySelector(".atas").style.display="none";
 	document.querySelector(".ke2").style.display="unset";
