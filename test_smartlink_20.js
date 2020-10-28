@@ -95,7 +95,7 @@ else if(harta == sak1)
 			document.querySelector(".pesanlink1hidden").style.display="unset";
 			document.querySelector(".pesanlink1").style.display="none";
 			document.querySelector(".ngebut").style.display="none";
-			document.querySelector(".link1").style.display="unset";
+			document.querySelector(".pembukalink1").style.display="unset";
         } else {
             // Menyesuaikan script dengan tag span yang memiliki id countdown
             document.getElementById("countdown").innerHTML = seconds;
@@ -107,7 +107,10 @@ else if(harta == sak1)
     
     // Menerapkan pada tag span dengan id countdown
     countdown();
-
+	function bukase() {
+			document.querySelector(".link1").style.display="unset";
+			document.querySelector(".pembukalink1").style.display="none";
+	}
 	function bukases(){
 			document.querySelector(".link2").style.display="unset";
 			document.querySelector(".pembukalink2").style.display="none";
