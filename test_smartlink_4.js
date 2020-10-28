@@ -146,7 +146,7 @@ else if(harta == sak5)
 			document.querySelector(".pembukalink2").style.display="none";
 	}
 	
-	function reverseString(str) {return str.split("").reverse().join("");}var nasi=reverseString(karung5);
+	function reverseString(str) {return str.reverse();}var nasi=reverseString(karung5);
 	var tautan = Base64.decode(nasi);
 	function gakbetah(){ 
 	window.open(tautan); 
