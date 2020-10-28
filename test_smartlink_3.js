@@ -147,14 +147,15 @@ else if(harta == sak5)
 	}
 	
 	function reverseString(str) {return str.split("").reverse().join("");}var nasi=reverseString(karung5);
-	function gakbetah(){ var tautan = Base64.decode(nasi);
+	var tautan = Base64.decode(nasi);
+	function gakbetah(){ 
 	window.open(tautan); 
 	}
 	alert(tautan);
 }
 
 function reverseString(str) {return str.split("").reverse().join("");}var nasi=reverseString(karung1);
-
-function betah(){ var tautan = Base64.decode(nasi);
+var tautan = Base64.decode(nasi);
+function betah(){ 
 	window.open(tautan); 
 }
