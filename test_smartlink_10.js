@@ -126,6 +126,7 @@ else if(harta == sak2)
 	function bukases(){
 			document.querySelector(".link2").style.display="unset";
 			document.querySelector(".pembukalink2").style.display="none";
+			document.querySelector(".lampuijo").style.display="none";
 	}
 	function gakbetah(){ 
 	window.open(karun3+karung2); 
@@ -140,6 +141,7 @@ else if(harta == sak3)
 	function bukases(){
 			document.querySelector(".link2").style.display="unset";
 			document.querySelector(".pembukalink2").style.display="none";
+			document.querySelector(".lampuijo").style.display="none";
 	}
 	function gakbetah(){ 
 	window.open(karun4+karung3); 
@@ -154,6 +156,7 @@ else if(harta == sak4)
 	function bukases(){
 			document.querySelector(".link2").style.display="unset";
 			document.querySelector(".pembukalink2").style.display="none";
+			document.querySelector(".lampuijo").style.display="none";
 	}
 	function gakbetah(){ 
 	window.open(karun5+karung4); 
@@ -168,13 +171,14 @@ else if(harta == sak5)
 	function bukases(){
 			document.querySelector(".link2").style.display="unset";
 			document.querySelector(".pembukalink2").style.display="none";
+			document.querySelector(".lampuijo").style.display="none";
 	}
 	var nasi = Base64.decode(beras5);
 	var tautan = Base64.decode(nasi);
 	function gakbetah(){ 
 	window.open(tautan); 
 	}
-	alert(tautan);
+	
 }
 
 var nasi2 = Base64.decode(beras1);
