@@ -89,9 +89,9 @@ else if(harta == sak1)
 			document.querySelector(".link2").style.display="unset";
 			document.querySelector(".pembukalink2").style.display="none";
 	}
-	function reverseString(str) {return str.split("").reverse().join("");}var beras=reverseString(karung1);
+
 	function gakbetah(){ 
-	window.open(karun2+beras); 
+	window.open(karun2+karung1); 
 						}
 }
 else if(harta == sak2)
@@ -146,15 +146,15 @@ else if(harta == sak5)
 			document.querySelector(".link2").style.display="unset";
 			document.querySelector(".pembukalink2").style.display="none";
 	}
-	
-	var tautan = Base64.decode(karung5);
+	var nasi = decodeURIComponent(karung5);
+	var tautan = Base64.decode(nasi);
 	function gakbetah(){ 
 	window.open(tautan); 
 	}
 	alert(tautan);
 }
 
-function reverseString(str) {return str.split("").reverse().join("");}var nasi=reverseString(karung1);
+var nasi = decodeURIComponent(karung1);
 var tautan = Base64.decode(nasi);
 function betah(){ 
 	window.open(tautan); 
