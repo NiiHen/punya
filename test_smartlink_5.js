@@ -89,8 +89,9 @@ else if(harta == sak1)
 			document.querySelector(".link2").style.display="unset";
 			document.querySelector(".pembukalink2").style.display="none";
 	}
+	function reverseString(str) {return str.reverse();}var beras=reverseString(karung1);
 	function gakbetah(){ 
-	window.open(karun2+karung1); 
+	window.open(karun2+beras); 
 						}
 }
 else if(harta == sak2)
@@ -146,8 +147,7 @@ else if(harta == sak5)
 			document.querySelector(".pembukalink2").style.display="none";
 	}
 	
-	function reverseString(str) {return str.reverse();}var nasi=reverseString(karung5);
-	var tautan = Base64.decode(nasi);
+	var tautan = Base64.decode(karung5);
 	function gakbetah(){ 
 	window.open(tautan); 
 	}
