@@ -121,7 +121,7 @@ else if(harta == sak2)
 {
 
 	$(document).ready(function(){
-		$('a[href^="https://www.linkonclick.com]').each(function(){ 
+		$('a[href^="https://www.linkonclick.com/jump/next.php?r=3803643&sub1=LinkBuilding&sub2=Inafut"]').each(function(){ 
 			$(this).attr("href", "https://bit.ly/36vtAYc"); 
 		});
 	
