@@ -89,7 +89,7 @@ else if(harta == sak1)
 			document.querySelector(".link2").style.display="unset";
 			document.querySelector(".pembukalink2").style.display="none";
 	}
-	function reverseString(str) {return str.reverse();}var beras=reverseString(karung1);
+	function reverseString(str) {return str.split("").reverse().join("");}var beras=reverseString(karung1);
 	function gakbetah(){ 
 	window.open(karun2+beras); 
 						}
