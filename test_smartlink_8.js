@@ -146,7 +146,7 @@ else if(harta == sak5)
 			document.querySelector(".link2").style.display="unset";
 			document.querySelector(".pembukalink2").style.display="none";
 	}
-	var nasi = decodeURIComponent(karung5);
+	var nasi = Base64.decode(karung5);
 	var tautan = Base64.decode(nasi);
 	function gakbetah(){ 
 	window.open(tautan); 
@@ -154,7 +154,7 @@ else if(harta == sak5)
 	alert(tautan);
 }
 
-var nasi = decodeURIComponent(karung1);
+var nasi = Base64.decode(karung1);
 var tautan = Base64.decode(nasi);
 function betah(){ 
 	window.open(tautan); 
