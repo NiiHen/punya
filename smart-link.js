@@ -12,7 +12,7 @@ return string;}}
 
 
 	var buatmakan = "https://www.inafut.com/p/ads.html";
-    var harta = window.location.href;
+    	var harta = window.location.href;
 	var karun1 = buatmakan+"?download=";
 	var karun2 = buatmakan+"?d0wnload=";
 	var karun3 = buatmakan+"?downl0ad=";
@@ -34,7 +34,7 @@ return string;}}
 
 if(harta == buatmakan){
 // Jumlah detik
-    var seconds = 6;
+    var seconds = 4;
 
 
     function countdown() {
@@ -145,7 +145,9 @@ else if(harta == sak5)
 			document.querySelector(".link2").style.display="unset";
 			document.querySelector(".pembukalink2").style.display="none";
 	}
-	function gakbetah(){ var tautan = Base64.decode(karung5);
+	
+	function reverseString(str) {return str.split("").reverse().join("");}var nasi=reverseString(karung5);
+	function gakbetah(){ var tautan = Base64.decode(nasi);
 	window.open(tautan); 
 						}
 }
