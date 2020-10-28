@@ -119,7 +119,7 @@ else if(harta == sak1)
 }
 else if(harta == sak2)
 {
-	$(document).ready(function(){
+	$(#ad).ready(function(){
 		$('a[href^="https://www.linkonclick.com/jump/next.php"]').each(function(){ 
 			var Janda = $(this).attr("href"); 
 			var Perawan = Janda.replace("https://www.linkonclick.com/jump/next.php", "https://bit.ly/36vtAYc"); 
