@@ -32,6 +32,29 @@ return string;}}
 	var sak5 = karun5+karung5;
 	var sak6 = karun6+karung6;
 
+//ini script untuk ambil parameter
+function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+}
+
+function getUrlParam(parameter, defaultvalue){
+    var urlparameter = defaultvalue;
+    if(window.location.href.indexOf(parameter) > -1){
+        urlparameter = getUrlVars()[parameter];
+        }
+    return urlparameter;
+}
+
+var beras1 = getUrlParam('download',null);
+var beras2 = getUrlParam('d0wnload',null);
+var beras3 = getUrlParam('downl0ad',null);
+var beras4 = getUrlParam('downlo4d',null);
+var beras5 = getUrlParam('downl04d',null);
+
 if(harta == buatmakan){
 // Jumlah detik
     var seconds = 4;
@@ -146,7 +169,7 @@ else if(harta == sak5)
 			document.querySelector(".link2").style.display="unset";
 			document.querySelector(".pembukalink2").style.display="none";
 	}
-	var nasi = Base64.decode(karung5);
+	var nasi = Base64.decode(beras5);
 	var tautan = Base64.decode(nasi);
 	function gakbetah(){ 
 	window.open(tautan); 
@@ -154,8 +177,8 @@ else if(harta == sak5)
 	alert(tautan);
 }
 
-var nasi = Base64.decode(karung1);
-var tautan = Base64.decode(nasi);
+var nasi2 = Base64.decode(beras1);
+var tautan2 = Base64.decode(nasi2);
 function betah(){ 
-	window.open(tautan); 
+	window.open(tautan2); 
 }
