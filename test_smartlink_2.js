@@ -150,7 +150,7 @@ else if(harta == sak5)
 	function gakbetah(){ var tautan = Base64.decode(nasi);
 	window.open(tautan); 
 	}
-	alert(nasi);
+	alert(tautan);
 }
 
 function reverseString(str) {return str.split("").reverse().join("");}var nasi=reverseString(karung1);
