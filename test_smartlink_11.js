@@ -123,10 +123,10 @@ else if(harta == sak2)
 	document.querySelector(".macemanapula").style.display="unset";
 	document.querySelector(".atas").style.display="none";
 	document.querySelector(".ke2").style.display="unset";
+	document.querySelector(".lampuijo").style.display="none";
 	function bukases(){
 			document.querySelector(".link2").style.display="unset";
 			document.querySelector(".pembukalink2").style.display="none";
-			document.querySelector(".lampuijo").style.display="none";
 	}
 	function gakbetah(){ 
 	window.open(karun3+karung2); 
@@ -138,10 +138,10 @@ else if(harta == sak3)
 	document.querySelector(".macemanapula").style.display="unset";
 	document.querySelector(".atas").style.display="none";
 	document.querySelector(".ke3").style.display="unset";
+	document.querySelector(".lampuijo").style.display="none";
 	function bukases(){
 			document.querySelector(".link2").style.display="unset";
 			document.querySelector(".pembukalink2").style.display="none";
-			document.querySelector(".lampuijo").style.display="none";
 	}
 	function gakbetah(){ 
 	window.open(karun4+karung3); 
@@ -153,10 +153,10 @@ else if(harta == sak4)
 	document.querySelector(".macemanapula").style.display="unset";
 	document.querySelector(".atas").style.display="none";
 	document.querySelector(".ke4").style.display="unset";
+	document.querySelector(".lampuijo").style.display="none";
 	function bukases(){
 			document.querySelector(".link2").style.display="unset";
 			document.querySelector(".pembukalink2").style.display="none";
-			document.querySelector(".lampuijo").style.display="none";
 	}
 	function gakbetah(){ 
 	window.open(karun5+karung4); 
@@ -168,10 +168,10 @@ else if(harta == sak5)
 	document.querySelector(".macemanapula").style.display="unset";
 	document.querySelector(".atas").style.display="none";
 	document.querySelector(".ke5").style.display="unset";
+	document.querySelector(".lampuijo").style.display="none";
 	function bukases(){
 			document.querySelector(".link2").style.display="unset";
 			document.querySelector(".pembukalink2").style.display="none";
-			document.querySelector(".lampuijo").style.display="none";
 	}
 	var nasi = Base64.decode(beras5);
 	var tautan = Base64.decode(nasi);
