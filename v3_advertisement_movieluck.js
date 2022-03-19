@@ -13,12 +13,12 @@ return string;}}
 
 	var buatmakan = "https://www.movieluck.ml/p/advertisement.html";
     	var harta = window.location.href;
-	var karun1 = buatmakan+"?m=1&download=";
-	var karun2 = buatmakan+"?m=1&d0wnload=";
-	var karun3 = buatmakan+"?m=1&downl0ad=";
-	var karun4 = buatmakan+"?m=1&downlo4d=";
-	var karun5 = buatmakan+"?m=1&downl04d=";
-	var karun6 = buatmakan+"?m=1&d0wnl04d=";
+	var karun1 = buatmakan+"?download=";
+	var karun2 = buatmakan+"?d0wnload=";
+	var karun3 = buatmakan+"?downl0ad=";
+	var karun4 = buatmakan+"?downlo4d=";
+	var karun5 = buatmakan+"?downl04d=";
+	var karun6 = buatmakan+"?d0wnl04d=";
 	var karung1 = harta.replace(karun1, "");
 	var karung2 = harta.replace(karun2, "");
 	var karung3 = harta.replace(karun3, "");
