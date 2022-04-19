@@ -55,30 +55,7 @@ var beras3 = getUrlParam('downl0ad',null);
 var beras4 = getUrlParam('downlo4d',null);
 var beras5 = getUrlParam('downl04d',null);
 
-if(harta == buatmakan){
-// Jumlah detik
-    var seconds = tunggudetik;
-
-
-    function countdown() {
-        seconds = seconds - 1;
-        if (seconds < 0) {
-            // tujuan setelah waktu habis
-            window.location = "/";
-
-        } else {
-            // Menyesuaikan script dengan tag span yang memiliki id countdown
-            document.getElementById("countdown").innerHTML = seconds;
-            // Rumus hitungan detik pada script adalah 1000ms atau 1 detik
-            window.setTimeout("countdown()", 1000);	
-        }
-    }
-    
-    // Menerapkan pada tag span dengan id countdown
-    countdown();
-
-
-}
+if(harta == buatmakan){window.location = "/";}
 else if(harta == sak1)
 {
 
