@@ -11,7 +11,7 @@ else{c2=utftext.charCodeAt(i+ 1);c3=utftext.charCodeAt(i+ 2);string+=String.from
 return string;}}
 
 
-	var buatmakan = "https://www.movieluck.ml/p/advertisement.html";
+	var buatmakan = "https://"+sldm+"/p/advertisement.html";
     	var harta = window.location.href;
 	var karun1 = buatmakan+"?m=1&download=";
 	var karun2 = buatmakan+"?m=1&d0wnload=";
@@ -57,7 +57,7 @@ var beras5 = getUrlParam('downl04d',null);
 
 if(harta == buatmakan){
 // Jumlah detik
-    var seconds = 0;
+    var seconds = tunggudetik;
 
 
     function countdown() {
