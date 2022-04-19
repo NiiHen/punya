@@ -84,7 +84,7 @@ else if(harta == sak1)
 
 
 // Jumlah detik
-    var seconds = 30;
+    var seconds = tunggudetik;
 
 
     function countdown() {
